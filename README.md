@@ -5,6 +5,9 @@ This is an Arduino powered scale which holds your 3D filament and calculates app
 
 The 3D printed things can be found here: 
 
+When the scale is booting up, make sure not to have the spool sitting on top. You'll first be asked if you're using 3mm filament, if you are, press and hold the "Tare" button for yes.
+
+In the configuration section, you can change the average weight for each diameter filament that you use as well as the average spool weight of your favorite filament for more accuracy.
 
 How to Calibrate Your Scale
 
@@ -12,5 +15,5 @@ How to Calibrate Your Scale
 - Place a known weight on the scale and using the Arduino IDE serial monitor copy the numbers which are similar to each other (i.e in the same range), I would suggest 10 to 20 values and average them togther.
 - Divide the result in step 2 to your known weight. You should get about the parameter you need to pass to set_scale (i.e set_scale(432)).
 - Adjust the parameter in step 3 until you get an accurate reading.
-- 
+
 For a more indepth look at how to communicate with the HX711 sheild please checkout the libraries readme file: https://github.com/bogde/HX711
