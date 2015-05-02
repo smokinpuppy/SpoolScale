@@ -5,6 +5,10 @@ This is an Arduino powered scale which holds your 3D filament and calculates app
 
 The 3D printed things can be found here: 
 
+Requirements:
+HX711 Library (https://github.com/bogde/HX711);
+
+Usage instructions:
 When the scale is booting up, make sure not to have the spool sitting on top. You'll first be asked if you're using 3mm filament, if you are, press and hold the "Tare" button for yes.
 
 In the configuration section, you can change the average weight for each diameter filament that you use as well as the average spool weight of your favorite filament for more accuracy.
