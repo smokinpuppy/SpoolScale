@@ -3,7 +3,7 @@
 
 This is an Arduino powered scale which holds your 3D filament and calculates approximately how much filament you have remaining on your spool in meters. It's fairly accurate (+/- 1 meters when whole spool is on the scale & +/- 5 meters when the printer is pulling on the filament) Closer to the end of the spool, it will get much less accurate as the pull force of the extruder and the spring force of the tighter coiled filament becomes greater than the weight of the spool itself. 
 
-The 3D printed things can be found here: 
+The 3D printed things can be found here: http://www.thingiverse.com/thing:804607
 
 Requirements:
 HX711 Library (https://github.com/bogde/HX711);
